@@ -35,6 +35,9 @@ calculate.addEventListener('click', function () {
 // ========================================
 
 
+
+
+
         planetData.forEach((e) => {
             for (const key in e) {
                 if (planets.selectedOptions[0].label === key){
